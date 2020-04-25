@@ -27,5 +27,5 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish artifacts: drop'
 
--script: | 
+- script: | 
     VSTS_ARM_REST_IGNORE_SSL_ERRORS
